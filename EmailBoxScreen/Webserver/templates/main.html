@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>EmailBox</title>
+    <meta charset="utf-8"/>
+
+</head>
+
+<body>
+<header class="container">
+
+    <h1>
+        Dem Walter seine Emailbox
+    </h1>
+
+<div>
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Brand</a>
+    </div>
+
+
+</div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+          <li {% if message_active%}class="active"{% endif %}><a href="/Messages/">Aktuelle Nachrichten <span class="sr-only">(current)</span></a></li>
+          <li  {% if color_list%}class="active"{% endif %}><a href="/Colors/">Farbeinstellungen</a></li>
+          <li {% if error_list%}class="active"{% endif %} ><a href="/Errors/">Errorlog</a></li>
+
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+
+          <a href="/Shutdown/">
+              <button type="button" class="btn btn-primary navbar-btn">Einschalten</button>
+          </a>
+          <a href="/Shutdown/">
+              <button type="button" class="btn btn-primary navbar-btn">Ausschalten</button>
+          </a>
+             <a href="/Restart/">
+              <button type="button" class="btn btn-primary navbar-btn">Neustart</button>
+          </a>
+
+            <a href="/Shutdown/">
+              <button type="button" class="btn btn-primary navbar-btn">Herunterfahren</button>
+          </a>
+
+
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+<div class="row">
+<div class="col-sm-2 col-sm" >
+</div>
+<div class="col-sm-8" >
+{% block content%}
+{% endblock %}
+</div>
+</div>
+
+
+</body>
+</html>

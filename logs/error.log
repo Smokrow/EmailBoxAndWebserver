@@ -1,0 +1,407 @@
+[Fri Mar 17 17:03:25.043048 2017] [wsgi:error] [pid 3022:tid 1964975152] [remote 192.168.178.30:0] mod_wsgi (pid=3022): Target WSGI script '/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py' cannot be loaded as Python module.
+[Fri Mar 17 17:03:25.043430 2017] [wsgi:error] [pid 3022:tid 1964975152] [remote 192.168.178.30:0] mod_wsgi (pid=3022): Exception occurred processing WSGI script '/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py'.
+[Fri Mar 17 17:03:25.045262 2017] [wsgi:error] [pid 3022:tid 1964975152] [remote 192.168.178.30:0] Traceback (most recent call last):
+[Fri Mar 17 17:03:25.045624 2017] [wsgi:error] [pid 3022:tid 1964975152] [remote 192.168.178.30:0]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py", line 12, in <module>
+[Fri Mar 17 17:03:25.046249 2017] [wsgi:error] [pid 3022:tid 1964975152] [remote 192.168.178.30:0]     from django.core.wsgi import get_wsgi_application
+[Fri Mar 17 17:03:25.046504 2017] [wsgi:error] [pid 3022:tid 1964975152] [remote 192.168.178.30:0] ImportError: No module named django.core.wsgi
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+[Fri Mar 17 17:25:33.111288 2017] [wsgi:error] [pid 2052:tid 1855538224] Not Found: /favicon.ico
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+[Fri Mar 17 17:41:38.822546 2017] [wsgi:error] [pid 2053:tid 1863504944] Not Found: /favicon.ico
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 131, in load_messages
+    Data=open("Messages.txt","r")
+IOError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 17:45:26.035660 2017] [wsgi:error] [pid 2243:tid 1855607856] Internal Server Error: /Colors/
+[Fri Mar 17 17:45:26.035897 2017] [wsgi:error] [pid 2243:tid 1855607856] Traceback (most recent call last):
+[Fri Mar 17 17:45:26.035962 2017] [wsgi:error] [pid 2243:tid 1855607856]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 17:45:26.036022 2017] [wsgi:error] [pid 2243:tid 1855607856]     response = get_response(request)
+[Fri Mar 17 17:45:26.036079 2017] [wsgi:error] [pid 2243:tid 1855607856]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 17:45:26.036139 2017] [wsgi:error] [pid 2243:tid 1855607856]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 17:45:26.036194 2017] [wsgi:error] [pid 2243:tid 1855607856]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 17:45:26.036252 2017] [wsgi:error] [pid 2243:tid 1855607856]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 17:45:26.036309 2017] [wsgi:error] [pid 2243:tid 1855607856]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 103, in Colors
+[Fri Mar 17 17:45:26.036446 2017] [wsgi:error] [pid 2243:tid 1855607856]     rewrite_color_Database()
+[Fri Mar 17 17:45:26.036500 2017] [wsgi:error] [pid 2243:tid 1855607856]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 75, in rewrite_color_Database
+[Fri Mar 17 17:45:26.036551 2017] [wsgi:error] [pid 2243:tid 1855607856]     Data = open("Color.txt","w")
+[Fri Mar 17 17:45:26.036614 2017] [wsgi:error] [pid 2243:tid 1855607856] PermissionError: [Errno 13] Permission denied: 'Color.txt'
+[Fri Mar 17 17:45:26.036703 2017] [wsgi:error] [pid 2243:tid 1855607856] 
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 131, in load_messages
+    Data=open("Messages.txt","r")
+IOError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 17:51:47.694571 2017] [wsgi:error] [pid 670:tid 1846129712] Internal Server Error: /Messages/
+[Fri Mar 17 17:51:47.694856 2017] [wsgi:error] [pid 670:tid 1846129712] Traceback (most recent call last):
+[Fri Mar 17 17:51:47.694925 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 17:51:47.694986 2017] [wsgi:error] [pid 670:tid 1846129712]     response = get_response(request)
+[Fri Mar 17 17:51:47.695042 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 17:51:47.695101 2017] [wsgi:error] [pid 670:tid 1846129712]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 17:51:47.695158 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 17:51:47.695215 2017] [wsgi:error] [pid 670:tid 1846129712]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 17:51:47.695271 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 17:51:47.695327 2017] [wsgi:error] [pid 670:tid 1846129712]     update_Database()
+[Fri Mar 17 17:51:47.695380 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 17:51:47.695437 2017] [wsgi:error] [pid 670:tid 1846129712]     Data = open("Messages.txt", "r")
+[Fri Mar 17 17:51:47.695505 2017] [wsgi:error] [pid 670:tid 1846129712] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 17:51:47.695597 2017] [wsgi:error] [pid 670:tid 1846129712] 
+[Fri Mar 17 17:52:39.810787 2017] [wsgi:error] [pid 670:tid 1854518320] Internal Server Error: /Colors/
+[Fri Mar 17 17:52:39.811010 2017] [wsgi:error] [pid 670:tid 1854518320] Traceback (most recent call last):
+[Fri Mar 17 17:52:39.811074 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 17:52:39.811140 2017] [wsgi:error] [pid 670:tid 1854518320]     response = get_response(request)
+[Fri Mar 17 17:52:39.811196 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 17:52:39.811258 2017] [wsgi:error] [pid 670:tid 1854518320]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 17:52:39.811316 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 17:52:39.811377 2017] [wsgi:error] [pid 670:tid 1854518320]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 17:52:39.811435 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 103, in Colors
+[Fri Mar 17 17:52:39.811571 2017] [wsgi:error] [pid 670:tid 1854518320]     rewrite_color_Database()
+[Fri Mar 17 17:52:39.811625 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 75, in rewrite_color_Database
+[Fri Mar 17 17:52:39.811677 2017] [wsgi:error] [pid 670:tid 1854518320]     Data = open("Color.txt","w")
+[Fri Mar 17 17:52:39.811743 2017] [wsgi:error] [pid 670:tid 1854518320] PermissionError: [Errno 13] Permission denied: 'Color.txt'
+[Fri Mar 17 17:52:39.811832 2017] [wsgi:error] [pid 670:tid 1854518320] 
+[Fri Mar 17 17:56:02.176862 2017] [wsgi:error] [pid 670:tid 1846129712] Internal Server Error: /Messages/
+[Fri Mar 17 17:56:02.177099 2017] [wsgi:error] [pid 670:tid 1846129712] Traceback (most recent call last):
+[Fri Mar 17 17:56:02.177170 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 17:56:02.177231 2017] [wsgi:error] [pid 670:tid 1846129712]     response = get_response(request)
+[Fri Mar 17 17:56:02.177288 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 17:56:02.177347 2017] [wsgi:error] [pid 670:tid 1846129712]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 17:56:02.177404 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 17:56:02.177461 2017] [wsgi:error] [pid 670:tid 1846129712]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 17:56:02.177518 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 17:56:02.177574 2017] [wsgi:error] [pid 670:tid 1846129712]     update_Database()
+[Fri Mar 17 17:56:02.177628 2017] [wsgi:error] [pid 670:tid 1846129712]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 17:56:02.177684 2017] [wsgi:error] [pid 670:tid 1846129712]     Data = open("Messages.txt", "r")
+[Fri Mar 17 17:56:02.177751 2017] [wsgi:error] [pid 670:tid 1846129712] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 17:56:02.177843 2017] [wsgi:error] [pid 670:tid 1846129712] 
+[Fri Mar 17 17:56:18.692813 2017] [wsgi:error] [pid 670:tid 1854518320] Internal Server Error: /Messages/
+[Fri Mar 17 17:56:18.693029 2017] [wsgi:error] [pid 670:tid 1854518320] Traceback (most recent call last):
+[Fri Mar 17 17:56:18.693097 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 17:56:18.693213 2017] [wsgi:error] [pid 670:tid 1854518320]     response = get_response(request)
+[Fri Mar 17 17:56:18.693303 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 17:56:18.693365 2017] [wsgi:error] [pid 670:tid 1854518320]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 17:56:18.693423 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 17:56:18.693482 2017] [wsgi:error] [pid 670:tid 1854518320]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 17:56:18.693538 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 17:56:18.693594 2017] [wsgi:error] [pid 670:tid 1854518320]     update_Database()
+[Fri Mar 17 17:56:18.694002 2017] [wsgi:error] [pid 670:tid 1854518320]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 17:56:18.694156 2017] [wsgi:error] [pid 670:tid 1854518320]     Data = open("Messages.txt", "r")
+[Fri Mar 17 17:56:18.694236 2017] [wsgi:error] [pid 670:tid 1854518320] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 17:56:18.694338 2017] [wsgi:error] [pid 670:tid 1854518320] 
+[Fri Mar 17 18:01:14.815753 2017] [wsgi:error] [pid 2006:tid 1846453296] Internal Server Error: /Messages/
+[Fri Mar 17 18:01:14.816045 2017] [wsgi:error] [pid 2006:tid 1846453296] Traceback (most recent call last):
+[Fri Mar 17 18:01:14.816115 2017] [wsgi:error] [pid 2006:tid 1846453296]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:01:14.816176 2017] [wsgi:error] [pid 2006:tid 1846453296]     response = get_response(request)
+[Fri Mar 17 18:01:14.816233 2017] [wsgi:error] [pid 2006:tid 1846453296]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:01:14.816291 2017] [wsgi:error] [pid 2006:tid 1846453296]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:01:14.816348 2017] [wsgi:error] [pid 2006:tid 1846453296]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:01:14.816406 2017] [wsgi:error] [pid 2006:tid 1846453296]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:01:14.816463 2017] [wsgi:error] [pid 2006:tid 1846453296]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 18:01:14.816520 2017] [wsgi:error] [pid 2006:tid 1846453296]     update_Database()
+[Fri Mar 17 18:01:14.816575 2017] [wsgi:error] [pid 2006:tid 1846453296]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 18:01:14.816631 2017] [wsgi:error] [pid 2006:tid 1846453296]     Data = open("Messages.txt", "r")
+[Fri Mar 17 18:01:14.816697 2017] [wsgi:error] [pid 2006:tid 1846453296] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:01:14.816789 2017] [wsgi:error] [pid 2006:tid 1846453296] 
+[Fri Mar 17 18:01:38.782066 2017] [wsgi:error] [pid 2006:tid 1963893808] Internal Server Error: /Colors/
+[Fri Mar 17 18:01:38.782291 2017] [wsgi:error] [pid 2006:tid 1963893808] Traceback (most recent call last):
+[Fri Mar 17 18:01:38.782357 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:01:38.782419 2017] [wsgi:error] [pid 2006:tid 1963893808]     response = get_response(request)
+[Fri Mar 17 18:01:38.782476 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:01:38.782534 2017] [wsgi:error] [pid 2006:tid 1963893808]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:01:38.782591 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:01:38.782649 2017] [wsgi:error] [pid 2006:tid 1963893808]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:01:38.782707 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 103, in Colors
+[Fri Mar 17 18:01:38.782763 2017] [wsgi:error] [pid 2006:tid 1963893808]     rewrite_color_Database()
+[Fri Mar 17 18:01:38.782817 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 75, in rewrite_color_Database
+[Fri Mar 17 18:01:38.782873 2017] [wsgi:error] [pid 2006:tid 1963893808]     Data = open("Color.txt","w")
+[Fri Mar 17 18:01:38.782940 2017] [wsgi:error] [pid 2006:tid 1963893808] PermissionError: [Errno 13] Permission denied: 'Color.txt'
+[Fri Mar 17 18:01:38.783030 2017] [wsgi:error] [pid 2006:tid 1963893808] 
+[Fri Mar 17 18:03:04.655145 2017] [wsgi:error] [pid 2006:tid 1963893808] Internal Server Error: /Delete_color/3/
+[Fri Mar 17 18:03:04.655317 2017] [wsgi:error] [pid 2006:tid 1963893808] Traceback (most recent call last):
+[Fri Mar 17 18:03:04.655366 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:03:04.655408 2017] [wsgi:error] [pid 2006:tid 1963893808]     response = get_response(request)
+[Fri Mar 17 18:03:04.655446 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:03:04.655484 2017] [wsgi:error] [pid 2006:tid 1963893808]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:03:04.655522 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:03:04.655560 2017] [wsgi:error] [pid 2006:tid 1963893808]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:03:04.655599 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 151, in Delete_color
+[Fri Mar 17 18:03:04.655637 2017] [wsgi:error] [pid 2006:tid 1963893808]     rewrite_color_Database()
+[Fri Mar 17 18:03:04.655673 2017] [wsgi:error] [pid 2006:tid 1963893808]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 75, in rewrite_color_Database
+[Fri Mar 17 18:03:04.655712 2017] [wsgi:error] [pid 2006:tid 1963893808]     Data = open("Color.txt","w")
+[Fri Mar 17 18:03:04.655757 2017] [wsgi:error] [pid 2006:tid 1963893808] PermissionError: [Errno 13] Permission denied: 'Color.txt'
+[Fri Mar 17 18:03:04.655822 2017] [wsgi:error] [pid 2006:tid 1963893808] 
+[Fri Mar 17 18:03:55.859451 2017] [wsgi:error] [pid 2174:tid 1963873328] Internal Server Error: /Delete_color/2/
+[Fri Mar 17 18:03:55.859716 2017] [wsgi:error] [pid 2174:tid 1963873328] Traceback (most recent call last):
+[Fri Mar 17 18:03:55.859785 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:03:55.859845 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = get_response(request)
+[Fri Mar 17 18:03:55.859901 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:03:55.859960 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:03:55.860015 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:03:55.860074 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:03:55.860130 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 151, in Delete_color
+[Fri Mar 17 18:03:55.860188 2017] [wsgi:error] [pid 2174:tid 1963873328]     rewrite_color_Database()
+[Fri Mar 17 18:03:55.860244 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 75, in rewrite_color_Database
+[Fri Mar 17 18:03:55.860303 2017] [wsgi:error] [pid 2174:tid 1963873328]     Data = open("Color.txt","w")
+[Fri Mar 17 18:03:55.860373 2017] [wsgi:error] [pid 2174:tid 1963873328] PermissionError: [Errno 13] Permission denied: 'Color.txt'
+[Fri Mar 17 18:03:55.860466 2017] [wsgi:error] [pid 2174:tid 1963873328] 
+[Fri Mar 17 18:08:41.521639 2017] [wsgi:error] [pid 2174:tid 1963873328] Internal Server Error: /Messages/
+[Fri Mar 17 18:08:41.521870 2017] [wsgi:error] [pid 2174:tid 1963873328] Traceback (most recent call last):
+[Fri Mar 17 18:08:41.522009 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:08:41.522067 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = get_response(request)
+[Fri Mar 17 18:08:41.522118 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:08:41.522170 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:08:41.522219 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:08:41.522272 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:08:41.522321 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 18:08:41.522370 2017] [wsgi:error] [pid 2174:tid 1963873328]     update_Database()
+[Fri Mar 17 18:08:41.522417 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 18:08:41.522466 2017] [wsgi:error] [pid 2174:tid 1963873328]     Data = open("Messages.txt", "r")
+[Fri Mar 17 18:08:41.522528 2017] [wsgi:error] [pid 2174:tid 1963873328] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:08:41.522613 2017] [wsgi:error] [pid 2174:tid 1963873328] 
+[Fri Mar 17 18:10:33.538720 2017] [wsgi:error] [pid 2174:tid 1963873328] Internal Server Error: /Messages/
+[Fri Mar 17 18:10:33.538978 2017] [wsgi:error] [pid 2174:tid 1963873328] Traceback (most recent call last):
+[Fri Mar 17 18:10:33.539057 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:10:33.539124 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = get_response(request)
+[Fri Mar 17 18:10:33.539183 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:10:33.539243 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:10:33.539301 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:10:33.539362 2017] [wsgi:error] [pid 2174:tid 1963873328]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:10:33.539419 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 18:10:33.539476 2017] [wsgi:error] [pid 2174:tid 1963873328]     update_Database()
+[Fri Mar 17 18:10:33.539531 2017] [wsgi:error] [pid 2174:tid 1963873328]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 18:10:33.539587 2017] [wsgi:error] [pid 2174:tid 1963873328]     Data = open("Messages.txt", "r")
+[Fri Mar 17 18:10:33.539660 2017] [wsgi:error] [pid 2174:tid 1963873328] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:10:33.539768 2017] [wsgi:error] [pid 2174:tid 1963873328] 
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 131, in load_messages
+    Data=open("Messages.txt","r")
+IOError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:18:19.539294 2017] [wsgi:error] [pid 668:tid 1846817840] Internal Server Error: /Messages/
+[Fri Mar 17 18:18:19.541884 2017] [wsgi:error] [pid 668:tid 1846817840] Traceback (most recent call last):
+[Fri Mar 17 18:18:19.542057 2017] [wsgi:error] [pid 668:tid 1846817840]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:18:19.542116 2017] [wsgi:error] [pid 668:tid 1846817840]     response = get_response(request)
+[Fri Mar 17 18:18:19.542168 2017] [wsgi:error] [pid 668:tid 1846817840]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:18:19.542221 2017] [wsgi:error] [pid 668:tid 1846817840]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:18:19.542271 2017] [wsgi:error] [pid 668:tid 1846817840]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:18:19.542323 2017] [wsgi:error] [pid 668:tid 1846817840]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:18:19.542373 2017] [wsgi:error] [pid 668:tid 1846817840]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 18:18:19.542422 2017] [wsgi:error] [pid 668:tid 1846817840]     update_Database()
+[Fri Mar 17 18:18:19.542471 2017] [wsgi:error] [pid 668:tid 1846817840]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 18:18:19.542521 2017] [wsgi:error] [pid 668:tid 1846817840]     Data = open("Messages.txt", "r")
+[Fri Mar 17 18:18:19.542586 2017] [wsgi:error] [pid 668:tid 1846817840] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:18:19.542682 2017] [wsgi:error] [pid 668:tid 1846817840] 
+[Fri Mar 17 18:22:21.528387 2017] [wsgi:error] [pid 668:tid 1855206448] Internal Server Error: /Messages/
+[Fri Mar 17 18:22:21.528646 2017] [wsgi:error] [pid 668:tid 1855206448] Traceback (most recent call last):
+[Fri Mar 17 18:22:21.528714 2017] [wsgi:error] [pid 668:tid 1855206448]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:22:21.528779 2017] [wsgi:error] [pid 668:tid 1855206448]     response = get_response(request)
+[Fri Mar 17 18:22:21.528834 2017] [wsgi:error] [pid 668:tid 1855206448]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:22:21.528895 2017] [wsgi:error] [pid 668:tid 1855206448]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:22:21.528953 2017] [wsgi:error] [pid 668:tid 1855206448]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:22:21.529013 2017] [wsgi:error] [pid 668:tid 1855206448]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:22:21.529071 2017] [wsgi:error] [pid 668:tid 1855206448]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 122, in Messages_HTML
+[Fri Mar 17 18:22:21.529131 2017] [wsgi:error] [pid 668:tid 1855206448]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 18, in update_Database
+[Fri Mar 17 18:22:21.529188 2017] [wsgi:error] [pid 668:tid 1855206448]     Data = open("Messages.txt", "r")
+[Fri Mar 17 18:22:21.529259 2017] [wsgi:error] [pid 668:tid 1855206448] FileNotFoundError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:22:21.529351 2017] [wsgi:error] [pid 668:tid 1855206448] 
+Traceback (most recent call last):
+  File "//home//pi//RaspberryPiBox//Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 131, in load_messages
+    Data=open("Messages.txt","r")
+IOError: [Errno 2] No such file or directory: 'Messages.txt'
+Traceback (most recent call last):
+  File "//home//pi//RaspberryPiBox//Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 131, in load_messages
+    Data=open("Messages.txt","r")
+IOError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:31:50.950657 2017] [wsgi:error] [pid 668:tid 1888760880] Not Found: /favicon.ico
+Traceback (most recent call last):
+  File "//home//pi//RaspberryPiBox//Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 131, in load_messages
+    Data=open("Messages.txt","r")
+IOError: [Errno 2] No such file or directory: 'Messages.txt'
+[Fri Mar 17 18:31:52.422282 2017] [wsgi:error] [pid 668:tid 1888760880] Not Found: /favicon.ico
+[Fri Mar 17 18:51:13.961471 2017] [wsgi:error] [pid 2083:tid 1854620720] Internal Server Error: /Delete_color/9/
+[Fri Mar 17 18:51:13.962017 2017] [wsgi:error] [pid 2083:tid 1854620720] Traceback (most recent call last):
+[Fri Mar 17 18:51:13.962110 2017] [wsgi:error] [pid 2083:tid 1854620720]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Fri Mar 17 18:51:13.962178 2017] [wsgi:error] [pid 2083:tid 1854620720]     response = get_response(request)
+[Fri Mar 17 18:51:13.962242 2017] [wsgi:error] [pid 2083:tid 1854620720]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Fri Mar 17 18:51:13.962303 2017] [wsgi:error] [pid 2083:tid 1854620720]     response = self.process_exception_by_middleware(e, request)
+[Fri Mar 17 18:51:13.962362 2017] [wsgi:error] [pid 2083:tid 1854620720]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Fri Mar 17 18:51:13.962422 2017] [wsgi:error] [pid 2083:tid 1854620720]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Fri Mar 17 18:51:13.962486 2017] [wsgi:error] [pid 2083:tid 1854620720]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 152, in Delete_color
+[Fri Mar 17 18:51:13.962545 2017] [wsgi:error] [pid 2083:tid 1854620720]     m=Addresse_Predef.objects.get(pk=id)
+[Fri Mar 17 18:51:13.962600 2017] [wsgi:error] [pid 2083:tid 1854620720]   File "/usr/local/lib/python3.4/dist-packages/django/db/models/manager.py", line 85, in manager_method
+[Fri Mar 17 18:51:13.962659 2017] [wsgi:error] [pid 2083:tid 1854620720]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Fri Mar 17 18:51:13.962720 2017] [wsgi:error] [pid 2083:tid 1854620720]   File "/usr/local/lib/python3.4/dist-packages/django/db/models/query.py", line 385, in get
+[Fri Mar 17 18:51:13.962776 2017] [wsgi:error] [pid 2083:tid 1854620720]     self.model._meta.object_name
+[Fri Mar 17 18:51:13.962853 2017] [wsgi:error] [pid 2083:tid 1854620720] EmailBoxAndWebserverApp.models.DoesNotExist: Addresse_Predef matching query does not exist.
+[Fri Mar 17 18:51:13.962983 2017] [wsgi:error] [pid 2083:tid 1854620720] 
+[Fri Mar 17 19:05:43.468662 2017] [wsgi:error] [pid 3176:tid 1938572336] 2
+[Fri Mar 17 19:10:45.039609 2017] [wsgi:error] [pid 3178:tid 1905017904] [client 192.168.178.40:63356] Timeout when reading response headers from daemon process 'RaspberryPiandWebserver': /home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py, referer: http://emailbox.local/Delete/2/
+[Fri Mar 17 19:11:28.910687 2017] [wsgi:error] [pid 3176:tid 1854686256] [remote 192.168.178.40:28790] mod_wsgi (pid=3176): Exception occurred processing WSGI script '/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py'.
+[Fri Mar 17 19:11:28.911519 2017] [wsgi:error] [pid 3176:tid 1854686256] [remote 192.168.178.40:28790] OSError: failed to write data
+[Sat Mar 18 10:07:03.509853 2017] [wsgi:error] [pid 670:tid 1963521072] [client 192.168.178.40:58575] Timeout when reading response headers from daemon process 'RaspberryPiandWebserver': /home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py, referer: http://emailbox.local/
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 46, in <module>
+    Konto.update_message_file()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 119, in update_message_file
+    Message,Addresse=self.Email_string_abrufen()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 34, in Email_string_abrufen
+    Status=pop.stat()
+  File "/usr/lib/python2.7/poplib.py", line 205, in stat
+    retval = self._shortcmd('STAT')
+  File "/usr/lib/python2.7/poplib.py", line 159, in _shortcmd
+    self._putcmd(line)
+  File "/usr/lib/python2.7/poplib.py", line 104, in _putcmd
+    self._putline(line)
+  File "/usr/lib/python2.7/poplib.py", line 395, in _putline
+    sent = self.sslobj.write(line)
+  File "/usr/lib/python2.7/ssl.py", line 626, in write
+    return self._sslobj.write(data)
+socket.error: [Errno 104] Connection reset by peer
+[Sat Mar 18 16:29:06.050820 2017] [wsgi:error] [pid 668:tid 1896846384] [client 192.168.178.40:58290] Timeout when reading response headers from daemon process 'RaspberryPiandWebserver': /home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py, referer: http://emailbox.local/TurnOff/
+[Sat Mar 18 19:10:06.096223 2017] [wsgi:error] [pid 667:tid 1888457776] [remote 192.168.178.40:20342] mod_wsgi (pid=667): Exception occurred processing WSGI script '/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py'.
+[Sat Mar 18 19:10:06.098941 2017] [wsgi:error] [pid 667:tid 1888457776] [remote 192.168.178.40:20342] OSError: failed to write data
+[Sat Mar 18 21:20:24.395641 2017] [wsgi:error] [pid 667:tid 1888457776] Internal Server Error: /Messages/
+[Sat Mar 18 21:20:24.395897 2017] [wsgi:error] [pid 667:tid 1888457776] Traceback (most recent call last):
+[Sat Mar 18 21:20:24.395964 2017] [wsgi:error] [pid 667:tid 1888457776]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Sat Mar 18 21:20:24.396031 2017] [wsgi:error] [pid 667:tid 1888457776]     response = get_response(request)
+[Sat Mar 18 21:20:24.396088 2017] [wsgi:error] [pid 667:tid 1888457776]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Sat Mar 18 21:20:24.396145 2017] [wsgi:error] [pid 667:tid 1888457776]     response = self.process_exception_by_middleware(e, request)
+[Sat Mar 18 21:20:24.396200 2017] [wsgi:error] [pid 667:tid 1888457776]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Sat Mar 18 21:20:24.396257 2017] [wsgi:error] [pid 667:tid 1888457776]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sat Mar 18 21:20:24.396313 2017] [wsgi:error] [pid 667:tid 1888457776]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 125, in Messages_HTML
+[Sat Mar 18 21:20:24.396368 2017] [wsgi:error] [pid 667:tid 1888457776]     update_Database()
+[Sat Mar 18 21:20:24.396421 2017] [wsgi:error] [pid 667:tid 1888457776]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 19, in update_Database
+[Sat Mar 18 21:20:24.396477 2017] [wsgi:error] [pid 667:tid 1888457776]     Data_list = Data.read()
+[Sat Mar 18 21:20:24.396532 2017] [wsgi:error] [pid 667:tid 1888457776]   File "/usr/lib/python3.4/encodings/ascii.py", line 26, in decode
+[Sat Mar 18 21:20:24.396592 2017] [wsgi:error] [pid 667:tid 1888457776]     return codecs.ascii_decode(input, self.errors)[0]
+[Sat Mar 18 21:20:24.396665 2017] [wsgi:error] [pid 667:tid 1888457776] UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 132: ordinal not in range(128)
+[Sat Mar 18 21:20:24.396765 2017] [wsgi:error] [pid 667:tid 1888457776] 
+[Sun Apr 02 08:47:37.514768 2017] [wsgi:error] [pid 667:tid 1845961776] Internal Server Error: /Messages/
+[Sun Apr 02 08:47:37.516457 2017] [wsgi:error] [pid 667:tid 1845961776] Traceback (most recent call last):
+[Sun Apr 02 08:47:37.516516 2017] [wsgi:error] [pid 667:tid 1845961776]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Sun Apr 02 08:47:37.516561 2017] [wsgi:error] [pid 667:tid 1845961776]     response = get_response(request)
+[Sun Apr 02 08:47:37.516601 2017] [wsgi:error] [pid 667:tid 1845961776]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Sun Apr 02 08:47:37.516687 2017] [wsgi:error] [pid 667:tid 1845961776]     response = self.process_exception_by_middleware(e, request)
+[Sun Apr 02 08:47:37.516726 2017] [wsgi:error] [pid 667:tid 1845961776]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Sun Apr 02 08:47:37.516762 2017] [wsgi:error] [pid 667:tid 1845961776]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sun Apr 02 08:47:37.516797 2017] [wsgi:error] [pid 667:tid 1845961776]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 125, in Messages_HTML
+[Sun Apr 02 08:47:37.516830 2017] [wsgi:error] [pid 667:tid 1845961776]     update_Database()
+[Sun Apr 02 08:47:37.516863 2017] [wsgi:error] [pid 667:tid 1845961776]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 19, in update_Database
+[Sun Apr 02 08:47:37.516896 2017] [wsgi:error] [pid 667:tid 1845961776]     Data_list = Data.read()
+[Sun Apr 02 08:47:37.516927 2017] [wsgi:error] [pid 667:tid 1845961776]   File "/usr/lib/python3.4/encodings/ascii.py", line 26, in decode
+[Sun Apr 02 08:47:37.516960 2017] [wsgi:error] [pid 667:tid 1845961776]     return codecs.ascii_decode(input, self.errors)[0]
+[Sun Apr 02 08:47:37.517009 2017] [wsgi:error] [pid 667:tid 1845961776] UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 132: ordinal not in range(128)
+[Sun Apr 02 08:47:37.517081 2017] [wsgi:error] [pid 667:tid 1845961776] 
+[Sun Apr 02 08:49:41.123604 2017] [authz_core:error] [pid 668:tid 1904682032] [client 192.168.178.40:63677] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:49:41.128629 2017] [authz_core:error] [pid 669:tid 1971790896] [client 192.168.178.40:63679] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:49:46.950782 2017] [authz_core:error] [pid 669:tid 1929847856] [client 192.168.178.40:63687] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:49:46.961941 2017] [authz_core:error] [pid 669:tid 1921459248] [client 192.168.178.40:63688] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:49:55.236472 2017] [authz_core:error] [pid 669:tid 1904682032] [client 192.168.178.40:63698] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:49:55.237465 2017] [authz_core:error] [pid 669:tid 1896293424] [client 192.168.178.40:63697] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:50:04.900527 2017] [authz_core:error] [pid 669:tid 1887904816] [client 192.168.178.40:63708] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:50:04.901616 2017] [authz_core:error] [pid 669:tid 1879516208] [client 192.168.178.40:63707] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:50:09.313791 2017] [authz_core:error] [pid 669:tid 1862738992] [client 192.168.178.40:63707] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:50:09.314767 2017] [authz_core:error] [pid 669:tid 1854350384] [client 192.168.178.40:63708] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:50:15.136224 2017] [authz_core:error] [pid 669:tid 1837573168] [client 192.168.178.40:63721] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:50:15.199865 2017] [authz_core:error] [pid 669:tid 1829184560] [client 192.168.178.40:63720] AH01630: client denied by server configuration: /home/pi/RaspberryPiandWebserver/static, referer: http://emailbox.local/admin/login/?next=/admin/
+[Sun Apr 02 08:51:08.625328 2017] [wsgi:error] [pid 667:tid 1963402288] Internal Server Error: /Messages/
+[Sun Apr 02 08:51:08.625540 2017] [wsgi:error] [pid 667:tid 1963402288] Traceback (most recent call last):
+[Sun Apr 02 08:51:08.625601 2017] [wsgi:error] [pid 667:tid 1963402288]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/exception.py", line 39, in inner
+[Sun Apr 02 08:51:08.625653 2017] [wsgi:error] [pid 667:tid 1963402288]     response = get_response(request)
+[Sun Apr 02 08:51:08.625699 2017] [wsgi:error] [pid 667:tid 1963402288]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+[Sun Apr 02 08:51:08.625745 2017] [wsgi:error] [pid 667:tid 1963402288]     response = self.process_exception_by_middleware(e, request)
+[Sun Apr 02 08:51:08.625789 2017] [wsgi:error] [pid 667:tid 1963402288]   File "/usr/local/lib/python3.4/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+[Sun Apr 02 08:51:08.625834 2017] [wsgi:error] [pid 667:tid 1963402288]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sun Apr 02 08:51:08.625877 2017] [wsgi:error] [pid 667:tid 1963402288]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 125, in Messages_HTML
+[Sun Apr 02 08:51:08.625919 2017] [wsgi:error] [pid 667:tid 1963402288]     update_Database()
+[Sun Apr 02 08:51:08.625960 2017] [wsgi:error] [pid 667:tid 1963402288]   File "/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserverApp/views.py", line 19, in update_Database
+[Sun Apr 02 08:51:08.626002 2017] [wsgi:error] [pid 667:tid 1963402288]     Data_list = Data.read()
+[Sun Apr 02 08:51:08.626043 2017] [wsgi:error] [pid 667:tid 1963402288]   File "/usr/lib/python3.4/encodings/ascii.py", line 26, in decode
+[Sun Apr 02 08:51:08.626085 2017] [wsgi:error] [pid 667:tid 1963402288]     return codecs.ascii_decode(input, self.errors)[0]
+[Sun Apr 02 08:51:08.626136 2017] [wsgi:error] [pid 667:tid 1963402288] UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 132: ordinal not in range(128)
+[Sun Apr 02 08:51:08.626212 2017] [wsgi:error] [pid 667:tid 1963402288] 
+[Sun Apr 02 08:54:29.938311 2017] [wsgi:error] [pid 667:tid 1854350384] Not Found: /favicon.ico
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 55, in <module>
+    Konto.update_message_file()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 119, in update_message_file
+    #guckt ob neue Nachrichten anliegen und schreibt diese in die File.
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 47, in Email_string_abrufen
+    k=Msg[i].decode("utf8")
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf6 in position 3: invalid start byte
+[Sun Apr 02 09:02:51.834534 2017] [wsgi:error] [pid 669:tid 1770464304] [client 192.168.178.40:64372] Timeout when reading response headers from daemon process 'RaspberryPiandWebserver': /home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py, referer: http://emailbox.local/Messages/
+[Sun Apr 02 09:09:03.537960 2017] [wsgi:error] [pid 667:tid 1845961776] [remote 192.168.178.40:29558] mod_wsgi (pid=667): Exception occurred processing WSGI script '/home/pi/RaspberryPiandWebserver/EmailBoxAndWebserver/wsgi.py'.
+[Sun Apr 02 09:09:03.548756 2017] [wsgi:error] [pid 667:tid 1845961776] [remote 192.168.178.40:29558] OSError: failed to write data
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 138, in load_messages
+    with io.open("/home/pi/RaspberryPiandWebserver/Messages.txt",'r',encoding="utf9")as f:
+LookupError: unknown encoding: utf9
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 138, in load_messages
+    with io.open("/home/pi/RaspberryPiandWebserver/Messages.txt",'r',encoding="utf9")as f:
+LookupError: unknown encoding: utf9
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 27, in <module>
+    Konto.load_messages()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 138, in load_messages
+    with io.open("/home/pi/RaspberryPiandWebserver/Messages.txt",'r',encoding="utf9")as f:
+LookupError: unknown encoding: utf9
+Traceback (most recent call last):
+  File "/home/pi/RaspberryPiBox/Main.py", line 55, in <module>
+    Konto.update_message_file()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 125, in update_message_file
+    Message,Addresse=self.Email_string_abrufen()
+  File "/home/pi/RaspberryPiBox/Class_EmailKonto.py", line 48, in Email_string_abrufen
+    k=Msg[i].decode("utf8")
+  File "/usr/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xf6 in position 3: invalid start byte

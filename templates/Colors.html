@@ -1,0 +1,50 @@
+{% extends "main.html" %}
+{%  load crispy_forms_tags %}
+{% block content %}
+<h1>Farben</h1>
+
+     <table class="table">
+    <thead>
+        <tr>
+            <th>Addresse</th>
+            <th>R-Wert</th>
+            <th>G-Wert</th>
+            <th>B-Wert</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+{% for m in color_list %}
+        <tr>
+            <th><font color=rgb({{ m.Color_R}},{{ m.Color_G}},{{ m.Color_B }})>{{ m.EmailAddresse}}</font></th>
+            <th>{{ m.Color_R}}</th>
+            <th>{{ m.Color_G}}</th>
+            <th>{{ m.Color_B }}</th>
+
+            <th>
+                <form method="post" action="{% url 'Delete_color' id=m.id%}">
+                    <input type="submit" class="btn btn-primary navbar-btn" id={{ m.id }} name="Delete_color"  value="Löschen" />
+                </form>
+            </th>
+
+        </tr>
+
+
+ {% endfor %}
+
+
+
+
+  </table>
+
+    </tbody>
+    <form   method="POST" action="">
+    {{ color_form|crispy}}
+        <input type="submit" class="btn btn-primary navbar-btn"  value="Hinzufügen" />
+    </form>
+
+
+
+{% endblock %}

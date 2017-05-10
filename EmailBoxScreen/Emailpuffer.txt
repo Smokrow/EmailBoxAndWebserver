@@ -1,0 +1,171 @@
+Received: from HE1PR06CA0089.eurprd06.prod.outlook.com (10.169.114.15) by
+ HE1PR0601MB2379.eurprd06.prod.outlook.com (10.168.186.16) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.761.9 via Mailbox Transport; Mon, 5 Dec 2016 19:09:33 +0000
+Received: from inbound.mail.protection.outlook.com (213.199.180.143) by
+ HE1PR06CA0089.outlook.office365.com (10.169.114.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.761.9 via Frontend Transport; Mon, 5 Dec 2016 19:09:33 +0000
+Received: from AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com
+ (10.152.8.60) by AM5EUR02HT067.eop-EUR02.prod.protection.outlook.com
+ (10.152.9.201) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.734.4; Mon, 5 Dec
+ 2016 19:09:33 +0000
+Authentication-Results: spf=none (sender IP is 129.217.128.51)
+ smtp.mailfrom=tu-dortmund.de; outlook.de; dkim=none (message not signed)
+ header.d=none;outlook.de; dmarc=none action=none header.from=tu-dortmund.de;
+Received-SPF: None (protection.outlook.com: tu-dortmund.de does not designate
+ permitted sender hosts)
+Received: from SNT004-MC6F6.hotmail.com (10.152.8.59) by
+ AM5EUR02FT044.mail.protection.outlook.com (10.152.9.101) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.734.4 via Frontend Transport; Mon, 5 Dec 2016 19:09:32 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:;UpperCasedChecksum:;SizeAsReceived:990;Count:11
+Received: from unimail.uni-dortmund.de ([129.217.128.51]) by SNT004-MC6F6.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23143);
+	 Mon, 5 Dec 2016 11:09:29 -0800
+Received: from [192.168.10.170] (aftr-37-24-143-96.unit-ymedia.net [37.24.143.96] (may be forged))
+	(authenticated bits=0)
+	by unimail.uni-dortmund.de (8.16.0.19/8.16.0.19) with ESMTPSA id uB5J9IR8010348
+	(version=TLSv1.2 cipher=DHE-RSA-AES128-GCM-SHA256 bits=128 verify=NOT)
+	for <Pythontest1@outlook.de>; Mon, 5 Dec 2016 20:09:26 +0100 (CET)
+Date: Mon, 5 Dec 2016 20:09:15 +0100
+Message-ID: <72u9wked98onckc8xrey532n.1480964955420@email.android.com>
+From: Moritz Kroeger <moritz.kroeger@tu-dortmund.de>
+To: <Pythontest1@outlook.de>
+Content-Type: multipart/alternative;
+	boundary="--_com.samsung.android.email_7522742980240"
+Return-Path: moritz.kroeger@tu-dortmund.de
+X-OriginalArrivalTime: 05 Dec 2016 19:09:30.0956 (UTC) FILETIME=[1B6E30C0:01D24F2B]
+X-IncomingHeaderCount: 11
+X-MS-Exchange-Organization-Network-Message-Id: 6c0ac747-dcf4-45e2-d147-08d41d423f4b
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+CMM-sender-ip: 129.217.128.51
+CMM-sending-ip: 129.217.128.51
+CMM-Authentication-Results: hotmail.com; spf=none (sender IP is
+ 129.217.128.51) smtp.mailfrom=moritz.kroeger@tu-dortmund.de; dkim=none
+ header.d=tu-dortmund.de; x-hmca=none header.id=moritz.kroeger@tu-dortmund.de
+CMM-X-SID-PRA: moritz.kroeger@tu-dortmund.de
+CMM-X-AUTH-Result: NONE
+CMM-X-SID-Result: NONE
+CMM-X-Message-Status: n:n
+CMM-X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w
+CMM-X-Message-Info: NhFq/7gR1vQsfv92zRqcV2CIsJksBCFIJJG00gK21YpSpjVcF89ARd34VWebBndhRZovsG4qWHuxQT+qG5aoBcYCrqd4JZrO9K4fU1/yatBe2apjpAE5AsJSllWOh+jVULDbhbH/XlpiIrduv4tVMC0rQMQINJ5WsshvYNEFE7FHfZe/PlOSeblvynTqmd4ERTXPgh20fUHhDIoeaeUMD8HlhqRzIpFnr54ZhE1HkXn7AmMm63aoBw==
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02FT044;1:eUPVeIjyisTsCw6PEmHagTo7lPRvUq+BkrImsRsiMLp7zSG/on6qeSxdnKYClSIov3cHwlPSN2OYSNs+fPLL86nlK+Ttmovi452uuRQFi6hxSeHhrUepY6tUCZ2wsi8SR626765KmK9D8O2wmvWgBIjQx7D7xbLJwjIhDeqfnPon6wXFTm3kkKPgz5+Ikkij
+X-Forefront-Antispam-Report: EFV:NLI;SFV:NSPM;SFS:(98900003);DIR:INB;SFP:;SCL:1;SRVR:AM5EUR02HT067;H:SNT004-MC6F6.hotmail.com;FPR:;SPF:None;LANG:de;
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT067;2:uNt5df4RxY5W0lTYQsBAiDCWQ7y+0+7brUekgFrBCcBcjs+G1NlsP/7mlcmjh1K32kIaef+Wp3PAO5QzvTq/2P1Tnl9m3dtZN/9i7I4Cc1dzTVcOjtKH8YJktH7mpEu+a5F0KhdDbfARdQZFfRFktlgeRG/hBMGFKfY6rMjHwmc=;3:CgCHKdoj+LSUGeGkSipxloCzw1wkOkDmUywZD67bbhumOhV+vX55EronlMK/CMzTsF27RbG6YICXAFq2AFThiWliMyKz//Mnuw6b4yj6BuKH+J86WdjENY+cz+dFp6n4y6uv00o/n4+VeiGXevwLg2tv8Lk4oh0a2rWHE7/d8Ka1gv++1MC92qEojRVnroqcRHRkdihgWgAz5M51MUHSpF7PBJP/RyUhD9XRs8FaIPlN9yts2XRsf2PIIY02jO8VAsZiuljcmolE+DltMd+sXV7Q2jRbcBBNR2Ptwtsl+IY=
+X-MS-Office365-Filtering-Correlation-Id: 6c0ac747-dcf4-45e2-d147-08d41d423f4b
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(22001)(8291500097)(8291501002);SRVR:AM5EUR02HT067;
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT067;25:0Gr7FZMJuSdGRlz8mECZf7NXatnhRsCms2pShtZMSrdkkUvT9wVRqMGjcaVTQUPoX778p9Mpsvx6JV3Fm99/7jVanivIR4sf2cnoMwr8W02XqWAV4cvOD7VFl+GP2mGmdTlZRRCEQlAOdGSLtWXH6uZC3osBxF6af4JwHp/Irhp0fFHaRW8Y59bdsIwHhHkQv5JlfJGjxr/3OJYs1M6XfzfjIWmTAcCL3fcRk9yASfLLXDhu4Lhd1s+6HE96AOWwAoB0Eaq9PaREflpykd5pLdIR6oGmP9PV6A1xIfamuYtTLlMTSXwg15p0AkEqZEq3md5d1W40ul7XwctbSBHza0cwvoqBW2+t80+Mz/5DIMUvhS4vKjZPJIrhNDqzCdk7EljOKirwGsYjblKa96iKbAgxHFGuT+ntZECCzM/TMF410yZewGmz+p0otz55USjY5ldQaSiceEfAafhX4G1PnliLRHz+kaQn5euS8WlrwJRCiHmBU8AhBueEJkLD/405KuB2iCNfz2nezfwKHmsLsnlhi2Qy4MOpJnX4BKeJvjw=;31:kxQK93gLrJ05HWmHEypixPHNxb/JgrYiHjkdpb2uGdRktJIwVu+1epzXxki6o4lg3eNPt+8vOqWrLuzvJ5vZUX3DIjMhRA1zjd/yXqzlE9gL0VMVz46pimr8BaVSOAhDLnMEq/3F27feWTYRyNs5tVRVfNB747cIdV9mfMYc9HZA++ftQ9PVqd3dAeWDXgWqnuUBvLwPwwAAQBZntnpP4huquc5aZcvqsGC+Bt/LftPcxZXAKL3w3/mYQYK6xukpAi+ENmgJDnqEnR+Kp26U1g==
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(82015046);SRVR:AM5EUR02HT067;BCL:0;PCL:0;RULEID:(204819028);SRVR:AM5EUR02HT067;
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT067;4:sllqxqnfactMEwD8S+wzK7s7asCpFc4oBjoo/ZKYScU2od5EN+7jW0zfdTH+xAJsl59z9SHlNf6TxiJHTVr11pd8ltsViiRZATIaKTUHbenM37Tg8wjQF3Ty0MwDR1EHXR80eOyQCdP3MzZN7o7EZr7PfYg6f4OjsylrlRObr6gwvo0hNTb6tN+p8F+cj2fUHszsCiOOt7MkXn7rczcTaG6SI17rVTHr+WY5MLL+53J+wudCPvilzYpRMbBPq+tkcG+SG0Z7R1oIOxk5uHkKvBJZyMJHKsi5VKueE5MLfF4=;23:gqICe9IWPnVHvjPVL1Q5UDs7IDufzE88idTXO5eS2M/NtcpEh54ucveELZdZCFawgvwSGtmoRaF6dtK5n81quT3aj1/QeR30yYFTp2IXLF6SVNqwKB3cntRi2IVsmFC+JV+r0VVkXlM+PZV4hAcz9qKDFOdcQnMYp8I2aUfxAIhLbJ26ExbTDk/DWrRG3F/A9aZ9pEuitbHpdp6uyXIakA==;6:rJkL2YK/d4FUarDiJzXqWd9CxZsHPFPzcjed5bij2bersGIYeR7o/0oZyKmWrx7ODrs7OBz+58Y9GJb2jApVaP5ldjp+XZGNQ1opWFqMGzNFVsKvtYP+ZXeaRPfBY+BouompZr3aZgTYvEOxF9NQ0wTJxm52uSohG0vOMwjJ61Nl0Tvjf1mslD1TIlVj0Rgqtr+TPG5nYFp4aLcXOQVty+S9/MDjNsEGgPDR69aAaYWJ9FXDbNrQiP+bE1bsDrJmj0E56NIbu/6vg6bOfkoIA6ul2dcVMgvaYUfyOwG1xdmLZ5ITS5PHpQQ+rDjyZkD1aX8gefWctg0XWWGQd8ZrrA==
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02HT067;5:Q1bEbC5lp/3gPQDb9X+bGf/42ICUe9oHLhl95KMwiJJXyqtK+vSCO0hCFYSPb1e5WpKpnagDkt+eJ+4Cll/OF74Lzy4PJlOmzf2VKZjmLi2I5wD3bvYFNJOZukvcjWpZgWp4mb61dXms6888UePrOyYgRneL/Tepu+Iki+GM/Sj6b3IIkyx8o2WUIMJKuv8M;24:RMXBS263H2ey93+E1JWs3Nqj3lhq0ho6JvwBNbXgj84OBOoah+VmobdhWbMdO1xO07mf/ZnzBEys3xO9fkKeTeoQT+9Vh5VtOqf6jSAftPc=;7:Xu+AEPXd/ZhFaS2THJSExuJENNqFit6bIFYPpiWl1/gnlJym6cmWWLqOD02jyoL+m53IINxcpmX7wZbsCfuA+ehi2pIM3rDJVfBHtFP7eSLE3HmCWkOY6SossxehwenFYmaLUcllue34pPUoALX49ue+vW456zBaBfk/ZsOSbyCuv9PaY5nDbaKwmnezcIL4c6wBiCrZ7SR1ZdWDcEy89UanzaPzSR/Duy70rNFbAQaU2gP4m8zIU/YKxfz+bxJQZIlrW72oDFhZMoSX7LST0S9GlScaI2pLa/x4wjaaWRvcNp73yMhT6xV4bsd2LA17qNsmqr2dtlCHgt23l0cPPnPzvz9b8XpF+XfZNMkWpqQ8NMFIzQAXEN/zqpwjlHNr
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 05 Dec 2016 19:09:32.2906
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM5EUR02HT067
+X-MS-Exchange-Organization-AuthSource: AM5EUR02FT044.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.6536853
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtIRTFQUjA2MDFNQjIzNzk7OTpDMzdydnIvWTlEVGxsdzNLazV1UHdhWWhZ?=
+ =?utf-8?B?eG1KK29FejZaL095NkZSWmRoSE9QOEliMXBXdi81RmZ3UFZmNkVLYkg0cFQr?=
+ =?utf-8?B?NkNQVThBWHRmVGhzSVM5MmdEd2lYR3BXMnFBeklQOE1HVE9kSkoyd3FYNi84?=
+ =?utf-8?B?QlVLVHQ5MW1sUlZYdXFxN2VEbS9SNEl4T3IweWVjMnArTlBHY2lIcnEzWTNi?=
+ =?utf-8?B?cVAyTkVoaG9QOXRIUkc5Ti9pVUJrNTBNOGpDVXJuV0YwbXpING03MVpPOEdY?=
+ =?utf-8?B?M3MwUEJyLzNadHJOTjNPK1NYc2hiQlp5RzhGT1ZYQ2MwOVlBVFFYcFZtZFV1?=
+ =?utf-8?B?aG54WHVSQUpoYm8vcWhCcG5PbHZ2WlRPZjNwUlhpRVV5OGdKOXBKWlRjZGpn?=
+ =?utf-8?B?TGJwajNGQmNCcjJvYWxDcDJaVys3bTFCbE8wbFZ3WUV2bUlXTk5wM3BscmYz?=
+ =?utf-8?B?bDNCc1VpN25rT1hiZ2syYWVLdTdMRGNpV2wwTW9MVy9vbi9RSndaYjVmWExn?=
+ =?utf-8?B?eEpxa2w5WWU0YzlRS2NTWkM5R2JhaFFWL2VPT0Q0U3ZzZFZhcWJNWEI5a0JE?=
+ =?utf-8?B?eEMva3lkZlV0VldmdkZwUE43VHRTaUpwSmVRUWxwN2c2Z0ZmT0M3OXBIYUZP?=
+ =?utf-8?B?eFVlTVQ4TXFkUW5Vclh3VmVscjB4clNkbUlBN2Y0NjVrYldCV2JZSHdHMFAw?=
+ =?utf-8?B?UmF3QWphMlovRXBJaFZVZ2ZzNHRlb2RoNU1VaFNIYzVtUVM0dDhhZUtueGxJ?=
+ =?utf-8?B?SkF0VjZmaUc4a2F3ZUIxV0FZM3gzYUlnYW1QOTRWUTdRVnFkZEZ4OFhIdGFr?=
+ =?utf-8?B?SkI1dzg0bjZiMjFyZXdyeUFxREFTYkVJSC8rMXZPVytvRkdaN3FLOFYwMjZo?=
+ =?utf-8?B?L2ROTUxGaVFwYkhycU5ybWZPQ1pMSHlZRS9iTmRMb0ZTWXIrQjd1eDkzZGlP?=
+ =?utf-8?B?dHl5UUxLSEYySTVwcjFNb08rY2E2MzRlcjZNdEdZUUxKdzVER05taklYNnhG?=
+ =?utf-8?B?cy9uQlM5cTA0R2ZyWmdZYVJVSDNydDZDT09iK0pKcnRZK3YyVHdsV1NsYW9K?=
+ =?utf-8?B?R3UrSjdKVGNOVVJMNW9wRHFHdGZzNHFhaGZjdkh0TDJPaS9QS0hVUEpLRnhI?=
+ =?utf-8?B?TTZrR05RRE14eGxrd0lJYTZQM1h2WHZWZlNvK1c5NkJ3aTA4TTZyY21ZSFNZ?=
+ =?utf-8?B?eGFVRytMbllhdGxuTVU2M1R1ZHVYVnJvQWJDazBnN1hlbjdVNjlCMTlZQVB6?=
+ =?utf-8?B?bm5UYVFUaUlVc1FrQTFoSUFsMGxhODZrOXZ6NmpoTzJKZ0R3NDR2eXhXZzN6?=
+ =?utf-8?Q?nupmD8vrZIO0Yvr26vGuepZC1cBx30fwo=3D?=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;WIMS-SenderIP:129.217.128.51;WIMS-SPF:tu%2ddortmund%2ede;WIMS-DKIM:tu%2ddortmund%2ede;WIMS-822:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-PRA:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-AUTH:NONE;ENG:(102400050);
+MIME-Version: 1.0
+
+----_com.samsung.android.email_7522742980240
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtIRTFQUjA2MDFNQjIzNzk7OTpDMzdydnIvWTlEVGxsdzNLazV1UHdhWWhZ?=
+ =?utf-8?B?eG1KK29FejZaL095NkZSWmRoSE9QOEliMXBXdi81RmZ3UFZmNkVLYkg0cFQr?=
+ =?utf-8?B?NkNQVThBWHRmVGhzSVM5MmdEd2lYR3BXMnFBeklQOE1HVE9kSkoyd3FYNi84?=
+ =?utf-8?B?QlVLVHQ5MW1sUlZYdXFxN2VEbS9SNEl4T3IweWVjMnArTlBHY2lIcnEzWTNi?=
+ =?utf-8?B?cVAyTkVoaG9QOXRIUkc5Ti9pVUJrNTBNOGpDVXJuV0YwbXpING03MVpPOEdY?=
+ =?utf-8?B?M3MwUEJyLzNadHJOTjNPK1NYc2hiQlp5RzhGT1ZYQ2MwOVlBVFFYcFZtZFV1?=
+ =?utf-8?B?aG54WHVSQUpoYm8vcWhCcG5PbHZ2WlRPZjNwUlhpRVV5OGdKOXBKWlRjZGpn?=
+ =?utf-8?B?TGJwajNGQmNCcjJvYWxDcDJaVys3bTFCbE8wbFZ3WUV2bUlXTk5wM3BscmYz?=
+ =?utf-8?B?bDNCc1VpN25rT1hiZ2syYWVLdTdMRGNpV2wwTW9MVy9vbi9RSndaYjVmWExn?=
+ =?utf-8?B?eEpxa2w5WWU0YzlRS2NTWkM5R2JhaFFWL2VPT0Q0U3ZzZFZhcWJNWEI5a0JE?=
+ =?utf-8?B?eEMva3lkZlV0VldmdkZwUE43VHRTaUpwSmVRUWxwN2c2Z0ZmT0M3OXBIYUZP?=
+ =?utf-8?B?eFVlTVQ4TXFkUW5Vclh3VmVscjB4clNkbUlBN2Y0NjVrYldCV2JZSHdHMFAw?=
+ =?utf-8?B?UmF3QWphMlovRXBJaFZVZ2ZzNHRlb2RoNU1VaFNIYzVtUVM0dDhhZUtueGxJ?=
+ =?utf-8?B?SkF0VjZmaUc4a2F3ZUIxV0FZM3gzYUlnYW1QOTRWUTdRVnFkZEZ4OFhIdGFr?=
+ =?utf-8?B?SkI1dzg0bjZiMjFyZXdyeUFxREFTYkVJSC8rMXZPVytvRkdaN3FLOFYwMjZo?=
+ =?utf-8?B?L2ROTUxGaVFwYkhycU5ybWZPQ1pMSHlZRS9iTmRMb0ZTWXIrQjd1eDkzZGlP?=
+ =?utf-8?B?dHl5UUxLSEYySTVwcjFNb08rY2E2MzRlcjZNdEdZUUxKdzVER05taklYNnhG?=
+ =?utf-8?B?cy9uQlM5cTA0R2ZyWmdZYVJVSDNydDZDT09iK0pKcnRZK3YyVHdsV1NsYW9K?=
+ =?utf-8?B?R3UrSjdKVGNOVVJMNW9wRHFHdGZzNHFhaGZjdkh0TDJPaS9QS0hVUEpLRnhI?=
+ =?utf-8?B?TTZrR05RRE14eGxrd0lJYTZQM1h2WHZWZlNvK1c5NkJ3aTA4TTZyY21ZSFNZ?=
+ =?utf-8?B?eGFVRytMbllhdGxuTVU2M1R1ZHVYVnJvQWJDazBnN1hlbjdVNjlCMTlZQVB6?=
+ =?utf-8?B?bm5UYVFUaUlVc1FrQTFoSUFsMGxhODZrOXZ6NmpoTzJKZ0R3NDR2eXhXZzN6?=
+ =?utf-8?Q?nupmD8vrZIO0Yvr26vGuepZC1cBx30fwo=3D?=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;WIMS-SenderIP:129.217.128.51;WIMS-SPF:tu%2ddortmund%2ede;WIMS-DKIM:tu%2ddortmund%2ede;WIMS-822:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-PRA:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-AUTH:NONE;ENG:(102400050);
+
+SGFsbG8uIExhbmd6ZWl0IHRlc3Q=
+
+----_com.samsung.android.email_7522742980240
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Microsoft-Exchange-Diagnostics:
+	=?utf-8?B?MTtIRTFQUjA2MDFNQjIzNzk7OTpDMzdydnIvWTlEVGxsdzNLazV1UHdhWWhZ?=
+ =?utf-8?B?eG1KK29FejZaL095NkZSWmRoSE9QOEliMXBXdi81RmZ3UFZmNkVLYkg0cFQr?=
+ =?utf-8?B?NkNQVThBWHRmVGhzSVM5MmdEd2lYR3BXMnFBeklQOE1HVE9kSkoyd3FYNi84?=
+ =?utf-8?B?QlVLVHQ5MW1sUlZYdXFxN2VEbS9SNEl4T3IweWVjMnArTlBHY2lIcnEzWTNi?=
+ =?utf-8?B?cVAyTkVoaG9QOXRIUkc5Ti9pVUJrNTBNOGpDVXJuV0YwbXpING03MVpPOEdY?=
+ =?utf-8?B?M3MwUEJyLzNadHJOTjNPK1NYc2hiQlp5RzhGT1ZYQ2MwOVlBVFFYcFZtZFV1?=
+ =?utf-8?B?aG54WHVSQUpoYm8vcWhCcG5PbHZ2WlRPZjNwUlhpRVV5OGdKOXBKWlRjZGpn?=
+ =?utf-8?B?TGJwajNGQmNCcjJvYWxDcDJaVys3bTFCbE8wbFZ3WUV2bUlXTk5wM3BscmYz?=
+ =?utf-8?B?bDNCc1VpN25rT1hiZ2syYWVLdTdMRGNpV2wwTW9MVy9vbi9RSndaYjVmWExn?=
+ =?utf-8?B?eEpxa2w5WWU0YzlRS2NTWkM5R2JhaFFWL2VPT0Q0U3ZzZFZhcWJNWEI5a0JE?=
+ =?utf-8?B?eEMva3lkZlV0VldmdkZwUE43VHRTaUpwSmVRUWxwN2c2Z0ZmT0M3OXBIYUZP?=
+ =?utf-8?B?eFVlTVQ4TXFkUW5Vclh3VmVscjB4clNkbUlBN2Y0NjVrYldCV2JZSHdHMFAw?=
+ =?utf-8?B?UmF3QWphMlovRXBJaFZVZ2ZzNHRlb2RoNU1VaFNIYzVtUVM0dDhhZUtueGxJ?=
+ =?utf-8?B?SkF0VjZmaUc4a2F3ZUIxV0FZM3gzYUlnYW1QOTRWUTdRVnFkZEZ4OFhIdGFr?=
+ =?utf-8?B?SkI1dzg0bjZiMjFyZXdyeUFxREFTYkVJSC8rMXZPVytvRkdaN3FLOFYwMjZo?=
+ =?utf-8?B?L2ROTUxGaVFwYkhycU5ybWZPQ1pMSHlZRS9iTmRMb0ZTWXIrQjd1eDkzZGlP?=
+ =?utf-8?B?dHl5UUxLSEYySTVwcjFNb08rY2E2MzRlcjZNdEdZUUxKdzVER05taklYNnhG?=
+ =?utf-8?B?cy9uQlM5cTA0R2ZyWmdZYVJVSDNydDZDT09iK0pKcnRZK3YyVHdsV1NsYW9K?=
+ =?utf-8?B?R3UrSjdKVGNOVVJMNW9wRHFHdGZzNHFhaGZjdkh0TDJPaS9QS0hVUEpLRnhI?=
+ =?utf-8?B?TTZrR05RRE14eGxrd0lJYTZQM1h2WHZWZlNvK1c5NkJ3aTA4TTZyY21ZSFNZ?=
+ =?utf-8?B?eGFVRytMbllhdGxuTVU2M1R1ZHVYVnJvQWJDazBnN1hlbjdVNjlCMTlZQVB6?=
+ =?utf-8?B?bm5UYVFUaUlVc1FrQTFoSUFsMGxhODZrOXZ6NmpoTzJKZ0R3NDR2eXhXZzN6?=
+ =?utf-8?Q?nupmD8vrZIO0Yvr26vGuepZC1cBx30fwo=3D?=
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;psp:0;auth:0;dest:I;WIMS-SenderIP:129.217.128.51;WIMS-SPF:tu%2ddortmund%2ede;WIMS-DKIM:tu%2ddortmund%2ede;WIMS-822:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-PRA:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-AUTH:NONE;ENG:(102400050);
+
+PGh0bWw+PGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRl
+eHQvaHRtbDsgY2hhcnNldD11dGYtOCI+PC9oZWFkPjxib2R5PkhhbGxvLiBMYW5nemVpdCB0ZXN0
+PC9ib2R5PjwvaHRtbD4=
+
+----_com.samsung.android.email_7522742980240--

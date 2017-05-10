@@ -1,0 +1,113 @@
+Received: from HE1P191CA0015.EURP191.PROD.OUTLOOK.COM (10.172.132.153) by
+ AM4P191MB0227.EURP191.PROD.OUTLOOK.COM (10.172.222.15) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1047.13 via Mailbox Transport; Sat, 22 Apr 2017 23:41:43 +0000
+Received: from inbound.mail.protection.outlook.com (94.245.120.84) by
+ HE1P191CA0015.outlook.office365.com (10.172.132.153) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256_P256) id
+ 15.1.1047.13 via Frontend Transport; Sat, 22 Apr 2017 23:41:43 +0000
+Received: from DB5EUR03FT064.eop-EUR03.prod.protection.outlook.com
+ (10.152.20.57) by DB5EUR03HT067.eop-EUR03.prod.protection.outlook.com
+ (10.152.21.239) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.1019.14; Sat, 22
+ Apr 2017 23:41:42 +0000
+Authentication-Results: spf=pass (sender IP is 129.217.128.51)
+ smtp.mailfrom=tu-dortmund.de; outlook.de; dkim=none (message not signed)
+ header.d=none;outlook.de; dmarc=bestguesspass action=none
+ header.from=tu-dortmund.de;
+Received-SPF: Pass (protection.outlook.com: domain of tu-dortmund.de
+ designates 129.217.128.51 as permitted sender)
+ receiver=protection.outlook.com; client-ip=129.217.128.51; helo=
+ unimail.uni-dortmund.de;
+Received: from COL004-MC6F26.hotmail.com (10.152.20.55) by
+ DB5EUR03FT064.mail.protection.outlook.com (10.152.21.199) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1019.14 via Frontend Transport; Sat, 22 Apr 2017 23:41:39 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:453370CFE1F4493923CAF4D0729985B0F49BF6A28DA3182C50B88D119D52D010;UpperCasedChecksum:5D74A76E57E50995EB31CBB8B01F88212D9480DAEA410BCD23AB5DFCFD4A4C43;SizeAsReceived:973;Count:11
+Received: from unimail.uni-dortmund.de ([129.217.128.51]) by COL004-MC6F26.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23143);
+	 Sat, 22 Apr 2017 16:41:37 -0700
+Received: from [192.168.178.20] (p4FE05854.dip0.t-ipconnect.de [79.224.88.84])
+	(authenticated bits=0)
+	by unimail.uni-dortmund.de (8.16.0.19/8.16.0.19) with ESMTPSA id v3MNfT9A014063
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128 verify=NOT)
+	for <Pythontest1@outlook.de>; Sun, 23 Apr 2017 01:41:34 +0200 (CEST)
+Message-ID: <201704222341.v3MNfT9A014063@unimail.uni-dortmund.de>
+Date: Sun, 23 Apr 2017 01:41:26 +0200
+From: Moritz Kroeger <moritz.kroeger@tu-dortmund.de>
+To: <Pythontest1@outlook.de>
+Content-Type: multipart/alternative;
+	boundary="--_com.samsung.android.email_253729244103700"
+Return-Path: moritz.kroeger@tu-dortmund.de
+X-OriginalArrivalTime: 22 Apr 2017 23:41:37.0440 (UTC) FILETIME=[FBC77200:01D2BBC1]
+X-IncomingHeaderCount: 11
+X-MS-Exchange-Organization-Network-Message-Id: 3ee0ad75-4980-4113-802b-08d489d92153
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+CMM-sender-ip: 129.217.128.51
+CMM-sending-ip: 129.217.128.51
+CMM-Authentication-Results: hotmail.com; spf=pass (sender IP is
+ 129.217.128.51) smtp.mailfrom=moritz.kroeger@tu-dortmund.de; dkim=none
+ header.d=tu-dortmund.de; x-hmca=pass header.id=moritz.kroeger@tu-dortmund.de
+CMM-X-SID-PRA: moritz.kroeger@tu-dortmund.de
+CMM-X-AUTH-Result: PASS
+CMM-X-SID-Result: PASS
+CMM-X-Message-Status: n:n
+CMM-X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MjtHRD0yO1NDTD02
+CMM-X-Message-Info: 11chDOWqoTmQL8qtbTtSwLbmCQ/rz5OyCxQXQGZFixYHm/pjfmd+UzLToqbLLCn2IlwkuQFabFmFLoduyfdZ/6HpHRekguFyDSVHqs1T/Uhs5aScvZSd3DGTuP23XDdFTKxmQUHmFtBjziG5mWb3LCpTIWjzIMFoOFFf8dBOYYT5OFZ7oQ9z7BhUJUPI3C5zsM3YORRkl7IwStflfrLfYmGwNQmv9iYnSg12wiSXocckHK3xvLGbeYR63VQ99AA/
+X-MS-Exchange-Organization-SCL: 5
+X-MS-Exchange-Organization-PCL: 2
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03FT064;1:eEH4ahN9cXdWFXFROGIaXwARRA+X5Cd4hvnzHyqN7m2wDfK57C114skWvw8adspd4p2jgD+3qcjF10eut8MOQxDz0OA5wCI3PwsgIit9ap0RJP8PYMc2+3p39/dB77EFda/iquGRJivCDicwW2OYVcf6JgpzltF72sLxHPRz/Xlh7K/NjUh0ltyARoM67pBp
+X-Forefront-Antispam-Report: EFV:NLI;SFV:SPM;SFS:(28900001);DIR:INB;SFP:;SCL:5;SRVR:DB5EUR03HT067;H:COL004-MC6F26.hotmail.com;FPR:;SPF:None;LANG:de;
+X-MS-Office365-Filtering-Correlation-Id: 3ee0ad75-4980-4113-802b-08d489d92153
+X-Microsoft-Antispam: BCL:0;PCL:0;RULEID:(22001)(8291500097)(8291501071);SRVR:DB5EUR03HT067;
+X-Microsoft-Exchange-Diagnostics:
+	1;DB5EUR03HT067;3:kCV6yd5+b5Qxzg6jIlVz6397t4RteWYobLyY8zjLskB/Qr/OHbKUi8/K5t2pQ4e0ZxTh7WkmACv6kL+lqRJOpUOxbiTQyvKjCKFarSTKZ8AOcV1yo0DC8HP4ZZn8TAB1YvkunI7a06hbb7W1bGCkXSMnB3fXUUCyOOj3Ot2HSo9sXPbTGLFsmE16fsBg8YBozZ84EXpPw/bpJHLlSPh3gMrUqGyAkl0pcngVegyeTU0EllCL+rLDZiwdC7cVkCU3Sn4W5jaaIbgDH4fS3cc3PMQ0zRNg2NzRlzK4DG7Q/ju0Y0kMp8dBRxYT1LRq3cdR9EjMZXIYeJ91dyGvKpxfQDjQE9tcvo1aVIYx3cuvTigJJtADjyZdrFmHgyDmhNuwWC8Nr+etksndB1W5KqfGMg==;25:86qdevT2TDxUpsJjTs1tkgnsqdnhy8xU1rYQ/aYnakLGFenbpupHz0CSO42hndIy0PnwmhHSjJSZd5q9nHySVWMj/bCsqu7+izlaqDUcAy7n0UV6BXUa/X0m9VSKzvoQKjLaV9mBgvMC/eqZ8d9oUFcWs1Kr4xfbU2AOa2zgZPOd7mBx9lLT6UY2zLoBY+SVWPbhsN6WR18pIIx6fCzF4qdH6EYzMyzYiBKApLRTUmNhH9h6iXOQmlI5DJsJ3H5x5TtIMQEOJ1iOtwDtSmhU94nRc6x3QkXnhTUrT2DI3+DPde0dZs2w2nWfP6ySwnaqC3WOZbL8ew7kU1Y2oyHcjcuB9XrnINHFOoB8dbYC8D20a/W5mgaaVNd6ux8fW/8SPbr4xAZNf2dWbHaiuIwKplfUxc+zHgw2wcqGnszMZfFXA/b2ZYFX6LS79WzqvqhumDfeE1TtYZn6JBCLHxJNsTFoXqEciHyF1zH8v2rCgzI0W8KupKWfM3XhdFFlMCNZM8ba4fRLNVPaS6bEhQymDA==
+X-MS-Exchange-Organization-AVStamp-Service: 1.0
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT067;31:+ozkTCuwXMAWRQAepOFueMRMNylDpt6XKCokWke2cOEw3tuq5gGQit7MBJShvJ6JlaqIyXP6TejQWA/nMlhMAK3agPZnSASJ6o7sCuXzMs8L+UrSfmcd3kdOshDSfxczgdbzXeio57sy63fu0C2z+cVCDqpyVa3CpVT/gKOQpjDqcSoirzgU2LJyL60xQGRma5j7J3NdWNKO7eWVkige4N7knfqZZmZz8iHG0W9jxcdKTOzy4RC2cVb9HJSZmXQTKg5pwZGXJSSwAW3mCP6EvHSYwmtvsYTioBMA31hGjgIOEPVw+QRKOILw/NqycRCh;4:udJbevpCUCnp61yRzP3rWN516y7RXQBkT0ymH4CDlggUQwWHG3WSTMtU4Si4E5El5x32P2ZWev7LufKwlIM9UgmsUfcAKKiTLByVQsmMd5bLEcTyXGI+0RWG4LzJIidVPuiUXqiXa1z3XnIVzOOTxmgQr/4K92KXCYDPDQbV9EuyJHukj+L8TX63dVnZ0UNMNX5Hx7Zo5QtS1SPsjVUzoCF134SIJb1uYv6V80DHxkpeE9lv38PO6JZxK+6/TqNGXON+hoZT84x2IVLfrzVacVA2w2REDctDM/E9U23+wC0=;23:LtT+z6upz9UMF50HXrWX4a+bC3wvod+aIIMwBCy0YTfLoqWengkesyFLEUDgF3/r4DEfNHdeeRoWxVFyswAupFWSSzHX2dgPhmdg8Q1pRS8kpOO2KS/Hm0a5TQSeRrkrq7XMR6nS+iYb7l9wKezFdhb2duP3ZeOXX1PNQjGV3lJphoJZGtb4QtgYDQ2YauRt3tpJnkjZN8/2VDvC7tiiog==
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(444000031);SRVR:DB5EUR03HT067;BCL:0;PCL:0;RULEID:;SRVR:DB5EUR03HT067;
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT067;6:p7cy5mdUKjhn0bkTR9OxzUGB7wc8bPhFtQt4rJVOuQ95v1IPu0VZjrtCSuFoEi30ByE7X+4PK2rhKpifn89os1wRSqUPRo9/fvnI+EcmuF6jv3vDDxvk5JPV95YE0Ql7FgPltoxazEz8iKhNU+LGkhN4rjqQ8meYcpjjpzerQZdyu69j/fVbD0Le8rNoK5JMZxH7eF4ee5bLjt+zMiLLhKmU6p3uEO5vsm/layV7yA52mUPeW6NEci77un6iRFx5wfwxdfFQ+TLWDtY8J/Tqt7QACaWDgPAFq1q42/rKotol3V6n0UT9JoRHBeNJcrGEwzJ1DzkjJSil8fYwJjKRQoLHxlctJhmKVG5rt9B6OUtPJhlCDe9yE+DOjEfs3rAwu/hxb4us8xxphYd78KsKwg==;5:z1l3WdHlEa1yV+K4p4qkZvtSBowPC1aA9yQP8dNpMQhkK9coJObDqzhcOT4XnaIlDW4W7D3MoYBol0cxEPQWeIxj26BZviZWfN09wEHQOAdD53UoPPLrIqAKi4TI6UkklXf4SK5m16uBy30EsFt7Jg==;24:VHlGPGLr5e8lozzCBKLIp3/Z7KEPg+EdfJ/+MsQ1n7XK5lYKQPdjhRSMDrJfNDRtO7VKQx+p0Pq/OYAYiGpkaw==
+SpamDiagnosticOutput: 1:22
+SpamDiagnosticMetadata: Default
+X-Microsoft-Exchange-Diagnostics: 1;DB5EUR03HT067;7:eJaxj4n8N7rcBYFvEbcq1EzJKVqKFFxnFKWzXvsbMx2pQPtaTXWGDn21RSykqOsQ5J23HOREY9R4aEfdkbj8oINdDuQC9b9d/t84Df/hBhDK95/CCNBquQfzG/bjc/JWcT+foyDUKc9folOo3nqwWiHr5Jf8r05Uy1I2HKnacJu0ebDRMJ8r5YBQpbSdGlCgKpIH4oMnCE9sr4GHr7VcrTiUxybHOfC4XpJcuwcKgyivs3TCM7p8rv6udl0YonZx8RzIcMhmXPNC/ZSToGvzUvKA9nfKXW8VeLvPE+L/PpwqgwJ6bgjYGv6i9g/oRAnfwytWIJuVF75tVSvFf6OZGA==
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Apr 2017 23:41:39.2516
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB5EUR03HT067
+X-MS-Exchange-Organization-AuthSource: DB5EUR03FT064.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.9770136
+X-Microsoft-Exchange-Diagnostics:
+	1;AM4P191MB0227;27:hIniPvRVyJQkUr7zc0LeSwOJbtw8gvReQZN7jyhq5znXDZJSgpJE2tFvhlK+AjvsauIrpA5x2INW9/NGP5E0cXY7svRfScC05vcnipCfYxmawMJeyKrhkZ9ZkVC7WHYKyzgptCYardZUnMI0dGd8Ag==
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;WIMS-SenderIP:129.217.128.51;WIMS-SPF:tu%2ddortmund%2ede;WIMS-DKIM:tu%2ddortmund%2ede;WIMS-822:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-PRA:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-AUTH:PASS;ENG:(5061607094)(102400140)(102420017);RF:JunkEmail;OFR:SpamFilterAuthJ;
+MIME-Version: 1.0
+
+----_com.samsung.android.email_253729244103700
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Microsoft-Exchange-Diagnostics:
+	1;AM4P191MB0227;27:hIniPvRVyJQkUr7zc0LeSwOJbtw8gvReQZN7jyhq5znXDZJSgpJE2tFvhlK+AjvsauIrpA5x2INW9/NGP5E0cXY7svRfScC05vcnipCfYxmawMJeyKrhkZ9ZkVC7WHYKyzgptCYardZUnMI0dGd8Ag==
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;WIMS-SenderIP:129.217.128.51;WIMS-SPF:tu%2ddortmund%2ede;WIMS-DKIM:tu%2ddortmund%2ede;WIMS-822:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-PRA:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-AUTH:PASS;ENG:(5061607094)(102400140)(102420017);RF:JunkEmail;OFR:SpamFilterAuthJ;
+
+CgoKClZvbiBtZWluZW0gU2Ftc3VuZyBHYWxheHkgU21hcnRwaG9uZSBnZXNlbmRldC4=
+
+----_com.samsung.android.email_253729244103700
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Microsoft-Exchange-Diagnostics:
+	1;AM4P191MB0227;27:hIniPvRVyJQkUr7zc0LeSwOJbtw8gvReQZN7jyhq5znXDZJSgpJE2tFvhlK+AjvsauIrpA5x2INW9/NGP5E0cXY7svRfScC05vcnipCfYxmawMJeyKrhkZ9ZkVC7WHYKyzgptCYardZUnMI0dGd8Ag==
+X-Microsoft-Antispam-Mailbox-Delivery:
+	abwl:0;wl:0;pcwl:0;kl:0;iwl:0;ijl:0;dwl:0;dkl:0;rwl:0;ex:0;auth:1;dest:J;WIMS-SenderIP:129.217.128.51;WIMS-SPF:tu%2ddortmund%2ede;WIMS-DKIM:tu%2ddortmund%2ede;WIMS-822:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-PRA:moritz%2ekroeger%40tu%2ddortmund%2ede;WIMS-AUTH:PASS;ENG:(5061607094)(102400140)(102420017);RF:JunkEmail;OFR:SpamFilterAuthJ;
+
+PGh0bWw+PGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRl
+eHQvaHRtbDsgY2hhcnNldD11dGYtOCI+PC9oZWFkPjxib2R5PjxkaXY+PGJyPjwvZGl2PjxkaXY+
+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXYgaWQ9ImNvbXBvc2Vy
+X3NpZ25hdHVyZSI+PGRpdiBzdHlsZT0iZm9udC1zaXplOjg1JTtjb2xvcjojNTc1NzU3IiBkaXI9
+ImF1dG8iPlZvbiBtZWluZW0gU2Ftc3VuZyBHYWxheHkgU21hcnRwaG9uZSBnZXNlbmRldC48L2Rp
+dj48L2Rpdj48L2JvZHk+PC9odG1sPg==
+
+----_com.samsung.android.email_253729244103700--

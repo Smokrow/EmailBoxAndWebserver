@@ -1,0 +1,40 @@
+{% extends "main.html" %}
+{% block content %}
+<h1>Nachrichten</h1>
+
+     <table class="table">
+    <thead>
+        <tr>
+            <th>Uhrzeit</th>
+            <th>Email</th>
+            <th>Nachricht</th>
+      </tr>
+    </thead>
+
+
+    <tbody>
+
+ {% for m in message_list %}
+
+        <tr>
+            <th>{{ m.zeitstring}}</th>
+            <th>{{ m.EmailAddresse}}</th>
+            <th>{{ m.Nachricht_text}}</th>
+
+            <th>
+                <form method="post" action="{% url 'Delete' id=m.id%}">
+                    <input type="submit" class="btn btn-primary navbar-btn" id={{ m.id }} name="Delete"  value="Delete" />
+                </form>
+            </th>
+
+        </tr>
+
+
+ {% endfor %}
+
+
+
+    </tbody>
+
+  </table>
+{% endblock %}

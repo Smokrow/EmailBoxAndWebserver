@@ -11,9 +11,10 @@ def Email_string_abrufen():
 
 
         # Login und checken der neuen Mails
-        pop = poplib.POP3_SSL('pop-mail.outlook.com')
-        pop.user('pythontest1@outlook.de')
-        pop.pass_("simpsons1")
+        pop = poplib.POP3_SSL('pop3.web.de')
+        #user pythontest1@outllok.de simpsons1 pop-mail.outlook.com
+        pop.user('wudn34@web.de')
+        pop.pass_("04.04.58")
         Status = pop.stat()
 
         # Wenn keine neuen Mails da sind wird auch nichts geaendert geguckt

@@ -87,11 +87,11 @@ def rewrite_color_Database():
 
 def turn_on(request):
 
+    s = "sudo pkill -f Main.py "
+    os.system(s)
+    time.sleep(0.1)
     os.system("sudo python /home/pi/EmailBoxAndWebserver/EmailBoxScreen/Main.py")
-    #pop1=Popen("home/pi/EmailBoxAndWebserver/EmailBoxScreen/Main.py",shell=True)
     t = loader.get_template("Home.html")
-    #time.sleep(1)
-    #pop1.terminate()
 
     return HttpResponse(t.render())
 
